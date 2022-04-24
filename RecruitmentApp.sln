@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecruitmentApp.WebAPI", "src\RecruitmentApp.WebAPI\RecruitmentApp.WebAPI.csproj", "{0C71F3D5-A11B-49CD-9538-BF24DD15EC8D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7EDCA471-7C43-45B8-B950-BE540871DCD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{27132DD9-A511-420E-89E1-EBF78BBBD557}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecruitmentApp.Service.Unit.Tests", "tests\RecruitmentApp.Service.Unit.Tests\RecruitmentApp.Service.Unit.Tests.csproj", "{14788114-082B-4E27-83BB-4EBFB95BE260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentApp.Application", "src\RecruitmentApp.Application\RecruitmentApp.Application.csproj", "{067DF6B9-B3F5-4D21-949F-7FD587F3454B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentApp.Domain", "src\RecruitmentApp.Domain\RecruitmentApp.Domain.csproj", "{3EC0B601-C418-4073-AF1A-D07EA9D15AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecruitmentApp.Infra", "src\RecruitmentApp.Infra\RecruitmentApp.Infra.csproj", "{6B12C935-960F-4511-B065-35B23489E91E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C71F3D5-A11B-49CD-9538-BF24DD15EC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C71F3D5-A11B-49CD-9538-BF24DD15EC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C71F3D5-A11B-49CD-9538-BF24DD15EC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C71F3D5-A11B-49CD-9538-BF24DD15EC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14788114-082B-4E27-83BB-4EBFB95BE260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14788114-082B-4E27-83BB-4EBFB95BE260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14788114-082B-4E27-83BB-4EBFB95BE260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14788114-082B-4E27-83BB-4EBFB95BE260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{067DF6B9-B3F5-4D21-949F-7FD587F3454B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{067DF6B9-B3F5-4D21-949F-7FD587F3454B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{067DF6B9-B3F5-4D21-949F-7FD587F3454B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{067DF6B9-B3F5-4D21-949F-7FD587F3454B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC0B601-C418-4073-AF1A-D07EA9D15AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC0B601-C418-4073-AF1A-D07EA9D15AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC0B601-C418-4073-AF1A-D07EA9D15AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC0B601-C418-4073-AF1A-D07EA9D15AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B12C935-960F-4511-B065-35B23489E91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B12C935-960F-4511-B065-35B23489E91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B12C935-960F-4511-B065-35B23489E91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B12C935-960F-4511-B065-35B23489E91E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C71F3D5-A11B-49CD-9538-BF24DD15EC8D} = {7EDCA471-7C43-45B8-B950-BE540871DCD0}
+		{14788114-082B-4E27-83BB-4EBFB95BE260} = {27132DD9-A511-420E-89E1-EBF78BBBD557}
+		{067DF6B9-B3F5-4D21-949F-7FD587F3454B} = {7EDCA471-7C43-45B8-B950-BE540871DCD0}
+		{3EC0B601-C418-4073-AF1A-D07EA9D15AF3} = {7EDCA471-7C43-45B8-B950-BE540871DCD0}
+		{6B12C935-960F-4511-B065-35B23489E91E} = {7EDCA471-7C43-45B8-B950-BE540871DCD0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88D14916-7DFF-4FE5-A42B-DC5DBE6352B0}
+	EndGlobalSection
+EndGlobal
